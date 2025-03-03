@@ -1,7 +1,9 @@
 site_name: Brainy
 nav:
   - Welcome: index.md
-  - File Management: file-management.md
+  - Sidebar: sidebar.md
   - Editor: editor.md
-  - Shortcuts: shortcuts.md
+  - Home: home.md
+  - Reviewer: reviewer.md
+  - Settings: settings.md
 theme: readthedocs

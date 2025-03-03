@@ -1,3 +1,5 @@
+# Editor
+
 The editor is where you edit the content of a file. A file consists of study
 blocks called **cells**, and each cell can be related to zero or more
 repetitions that you actively review based on a specified interval, 

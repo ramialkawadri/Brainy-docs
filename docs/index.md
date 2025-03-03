@@ -23,7 +23,7 @@ study sessions.
 - **Efficient Keyboard Shortcuts:** Navigate the app quickly to enhance your 
 learning experience.
 
-**Get started**
+## Get started
 
 To get started, install the app and open it. In the app, you will find the
 **sidebar** with a list of the files you have created. To create a new file, 
@@ -33,3 +33,13 @@ to the file's editor. There, click the **Add Cell** button to create a new cell.
 Choose "Flash Card" and enter content for the question and answer. Once you've
 done that, press the **Study** button on the sidebar. This will open the reviewer
 so you can review the flash card you created.
+
+## Reporting an issue, bug or requesting a new feature
+
+To report an issue, bug or request a new feature, you can visit
+the following [link](https://github.com/ramialkawadri/Brainy-docs/issues/new).
+
+## Contact the developer
+
+To contact the main developer of this app, send an email to 
+[ramialkawadri@hotmail.com](mailto:ramialkawadri@hotmail.com).
