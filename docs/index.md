@@ -6,7 +6,7 @@ a lifelong learner, Brainy empowers you to master any subject with its
 cutting-edge features that harness the power of active learning and spaced
 repetitions.
 
-**Key features:**
+## Key features:
 
 - **Notebook Style Files:** Seamlessly organize notes and ideas all in one
 place.
