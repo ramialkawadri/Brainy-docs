@@ -54,6 +54,7 @@ faster and more efficient:
 | Ctrl + Enter         | Insert new cell at the end of the file          |
 | Ctrl + Shift + Enter | Insert new cell after the current selected cell |
 | Ctrl + Arrow up/down | Move the focus to the previous/next cell        |
+| Ctrl + F             | Search                                          |
 | Alt + DEL            | Delete current cell                             |
 | Ctrl + Space         | Move the focus to the text editor               |
 | F5                   | Start studying/review session                   |
