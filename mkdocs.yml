@@ -3,6 +3,7 @@ nav:
   - Welcome: index.md
   - Sidebar: sidebar.md
   - Editor: editor.md
+  - Search: search.md
   - Home: home.md
   - Reviewer: reviewer.md
   - Settings: settings.md
