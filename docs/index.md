@@ -1,6 +1,6 @@
 # Welcome to Brainy
 
-Brainy is a revolutionary learning app designed to make knowledge retention
+Brainy is a learning app designed to make knowledge retention
 effortless and enjoyable. Whether you're a student, a professional, or simply
 a lifelong learner, Brainy empowers you to master any subject with its
 cutting-edge features that harness the power of active learning and spaced
@@ -15,13 +15,16 @@ place.
 materials with robust organization.
   
 - **Active Learning and Spaced Repetitions:** Retain knowledge effectively 
-with our scientifically-backed methods.
+with scientifically-backed methods.
   
 - **Interactive Tools:** Dive into flash cards and cloze exercises for dynamic 
 study sessions.
 
 - **Efficient Keyboard Shortcuts:** Navigate the app quickly to enhance your 
 learning experience.
+
+- **Advanced File Management:** Efficiently store and organize your notes and 
+files using our sophisticated file management system.
 
 ## Get started
 
