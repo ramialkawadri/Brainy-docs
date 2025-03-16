@@ -40,7 +40,7 @@ so you can review the flash card you created.
 ## Reporting an issue, bug or requesting a new feature
 
 To report an issue, bug or request a new feature, you can visit
-the following [link](https://github.com/ramialkawadri/Brainy-docs/issues/new).
+the following [link](https://github.com/ramialkawadri/Brainy/issues/new).
 
 ## Contact the developer
 
