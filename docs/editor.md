@@ -49,12 +49,13 @@ additional buttons on this bubble menu:
 A set of shortcuts has been added to the editor to make your editing experience
 faster and more efficient:
 
-| Keyboard shortcut    | What it does                                    |
-|----------------------|-------------------------------------------------|
-| Ctrl + Enter         | Insert new cell at the end of the file          |
-| Ctrl + Shift + Enter | Insert new cell after the current selected cell |
-| Ctrl + Arrow up/down | Move the focus to the previous/next cell        |
-| Ctrl + F             | Search                                          |
-| Alt + DEL            | Delete current cell                             |
-| Ctrl + Space         | Move the focus to the text editor               |
-| F5                   | Start studying/review session                   |
+| Keyboard shortcut        | What it does                                    |
+|--------------------------|-------------------------------------------------|
+| Ctrl + Enter             | Insert new cell at the end of the file          |
+| Ctrl + Shift + Enter     | Insert new cell after the current selected cell |
+| Ctrl + Arrow up/down     | Move the focus to the previous/next cell        |
+| Ctrl Alt + Arrow up/down | Move the selected cell to the up/down           |
+| Ctrl + F                 | Search                                          |
+| Alt + DEL                | Delete current cell                             |
+| Ctrl + Space             | Move the focus to the text editor               |
+| F5                       | Start studying/review session                   |

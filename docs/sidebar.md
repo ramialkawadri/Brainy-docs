@@ -50,3 +50,4 @@ and file management faster:
 | F2                | Rename selected file        |
 | Ctrl + p          | Open settings               |
 | Ctrl + h          | Navigate to the home area   |
+| Ctrl + shift + f  | Navigate to search          |
