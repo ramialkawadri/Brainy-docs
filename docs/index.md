@@ -34,7 +34,7 @@ click on **Create a File** or the three dots, then select **New File**. Give
 the file a name and press Enter. After creating a file, click on it to navigate 
 to the file's editor. There, click the **Add Cell** button to create a new cell.
 Choose "Flash Card" and enter content for the question and answer. Once you've
-done that, press the **Study** button on the sidebar. This will open the reviewer
+done that, press the **Study** button on the sidebar. This will open the reviewer,
 so you can review the flash card you created.
 
 ## Reporting an issue, bug or requesting a new feature
@@ -44,5 +44,5 @@ the following [link](https://github.com/ramialkawadri/Brainy/issues/new).
 
 ## Contact the developer
 
-To contact the main developer of this app, send an email to 
+To contact the main developer of this app, send email to 
 [ramialkawadri@hotmail.com](mailto:ramialkawadri@hotmail.com).

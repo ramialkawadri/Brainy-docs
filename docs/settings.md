@@ -4,7 +4,7 @@ The app allows you to modify the following settings:
 
 - **Database Location**: All your files, cells, and information used in this 
 app are saved in a single database file. The location of this file depends on
-the value you enter in this field. It is highly **recommended** to store this
+the value you enter. It is highly **recommended** to store this
 file on a cloud provider, such as Google Cloud, Mega, etc., to help sync your
 data across different devices and to prevent data loss.
 

@@ -45,9 +45,9 @@ and file management faster:
 | Keyboard shortcut | What it does                |
 |-------------------|-----------------------------|
 | Ctrl + \          | Collapse/Expand the sidebar |
-| Ctrl + n          | Create new file             |
+| Ctrl + N          | Create new file             |
 | DEL               | Delete the selected file    |
 | F2                | Rename selected file        |
-| Ctrl + p          | Open settings               |
-| Ctrl + h          | Navigate to the home area   |
-| Ctrl + shift + f  | Navigate to search          |
+| Ctrl + P          | Open settings               |
+| Ctrl + H          | Navigate to the home area   |
+| Ctrl + Shift + H  | Navigate to search          |
