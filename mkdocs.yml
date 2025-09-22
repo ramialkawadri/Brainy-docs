@@ -3,8 +3,8 @@ nav:
   - Welcome: index.md
   - Sidebar: sidebar.md
   - Editor: editor.md
-  - Search: search.md
   - Home: home.md
+  - Search: search.md
   - Reviewer: reviewer.md
   - Settings: settings.md
 theme: readthedocs

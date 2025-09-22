@@ -37,6 +37,12 @@ you can drag that file or folder to the desired location.
 on your disk, which can help you share your notes. To do this, click on the 
 three dots and then click on **Export**. You can import files similarly.
 
+1. **Remembering Expanded and Collapsed State**: The program will remember 
+which files were expanded and which were collapsed during your last
+session and will retain the state even after restart. This helps maintain
+your workflow and allows you to pick up right where you left off next time
+you use the program.
+
 ## Shortcuts
 
 A set of shortcuts has been added to the editor to make the process of navigation
