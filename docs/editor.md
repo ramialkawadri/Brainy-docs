@@ -46,8 +46,6 @@ additional buttons on this bubble menu:
 
 ## Shortcuts
 
-A set of shortcuts has been added to the editor to make your editing experience
-faster and more efficient:
 
 | Keyboard shortcut          | What it does                                    |
 |----------------------------|-------------------------------------------------|

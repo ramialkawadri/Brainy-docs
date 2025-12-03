@@ -18,8 +18,6 @@ you to the cell in the editor so that you can edit the cell.
 
 ## Shortcuts
 
-A set of shortcuts has been added to the reviewer to make your reviewing
-experience faster and more efficient:
 
 | Keyboard shortcut | What it does |
 |-------------------|--------------|

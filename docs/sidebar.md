@@ -3,9 +3,13 @@
 The sidebar allows you to navigate between the various components of the
 system and consists of the following parts:
 
-- **Navigation to Home and Settings**: Quickly access the home page and
-system settings.
+- **Sidebar navigation and quick actions**: Use the sidebar to navigate quickly to Home, Search, and Settings, and to perform actions with dedicated buttons for Sync and Help.
+
 - **File Management Area**: Manage your files and folders efficiently.
+
+- **Account management**: The sidebar also contains buttons to manage
+your account — including Sign‑in, Sign‑out, and Update Account
+Information.
 
 The sidebar can be collapsed and expanded again by clicking on the arrow next 
 to the **Brainy** title.
@@ -42,11 +46,10 @@ which files were expanded and which were collapsed during your last
 session and will retain the state even after restart. This helps maintain
 your workflow and allows you to pick up right where you left off next time
 you use the program.
+<!--TODO: sign in and out-->
 
 ## Shortcuts
 
-A set of shortcuts has been added to the editor to make the process of navigation
-and file management faster:
 
 | Keyboard shortcut | What it does                |
 |-------------------|-----------------------------|

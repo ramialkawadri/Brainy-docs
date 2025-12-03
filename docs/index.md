@@ -26,6 +26,9 @@ learning experience.
 - **Advanced File Management:** Efficiently store and organize your notes and 
 files using our sophisticated file management system.
 
+- **Sync Across Devices**: Keep your data up to date across all your
+devices with built‑in syncing functionality.
+
 ## Get started
 
 To get started, install the app and open it. In the app, you will find the
