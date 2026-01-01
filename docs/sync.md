@@ -3,6 +3,8 @@
 The app includes built‑in sync functionality that automatically keeps 
 your data synchronized across multiple devices.
 
+- **Email verification required:** You must verify your email address before
+you can use sync functionality.
 - **How sync works:** Changes you make on one device are uploaded and
 propagated to your other devices so your data stay up to date.
 - **Sync conflicts (Last‑write‑wins):** If the same item (for example, a
