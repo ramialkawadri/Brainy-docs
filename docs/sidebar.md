@@ -8,8 +8,8 @@ system and consists of the following parts:
 - **File Management Area**: Manage your files and folders efficiently.
 
 - **Account management**: The sidebar also contains buttons to manage
-your account — including Sign‑in, Sign‑out, and Update Account
-Information.
+your account — including Sign‑in, Sign‑out, Update Account
+Information, and deleting your account.
 
 The sidebar can be collapsed and expanded again by clicking on the arrow next 
 to the **Brainy** title.
