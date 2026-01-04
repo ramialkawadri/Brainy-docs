@@ -12,6 +12,8 @@ cell) is modified on more than one device before those changes are
 synchronized, the version with the most recent timestamp will
 take precedence — the last change wins. This means an earlier change
 can be overwritten if a later change is received.
+- **Storage limit:** The maximum total storage of synced entities is limited 
+to 100 megabytes.
 - **Settings options:** In Settings you can enable auto-sync on app start
 and on close.
 
