@@ -13,3 +13,6 @@ or follow the system theme.
 
 - **Sync on startup and on close**: Automatically sync your data with the
 server when you start or close the app.
+
+- **Account management**: Allows you to manage your account — including Sign‑out,
+Update Account Information, and deleting your account.
