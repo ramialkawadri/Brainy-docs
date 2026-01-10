@@ -8,4 +8,5 @@ nav:
   - Reviewer: reviewer.md
   - Sync: sync.md
   - Settings: settings.md
+  - Backup: backup.md
 theme: readthedocs
