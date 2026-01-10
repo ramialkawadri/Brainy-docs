@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Editor - Brainy</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Editor";
+        var mkdocs_page_input_path = "editor.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Brainy
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Welcome</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../sidebar/">Sidebar</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../home/">Home</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Editor</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#cell-types">Cell types</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#focus-tools">Focus tools</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#text-editors">Text editors</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#shortcuts">Shortcuts</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../search/">Search</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../reviewer/">Reviewer</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../sync/">Sync</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../settings/">Settings</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../backup/">Backup</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Brainy</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Editor</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="editor">Editor</h1>
+<p>The editor is where you edit the content of a file. A file consists of study
+blocks called <strong>cells</strong>, and each cell can be related to zero or more
+repetitions that you actively review based on a specified interval, 
+the number of repetitions are determined by the type of cell. </p>
+<h2 id="cell-types">Cell types</h2>
+<p>Here are the types of cells that are currently supported:</p>
+<ul>
+<li><strong>Flash Card</strong>: This is like the traditional flash cards you're familiar 
+with, such as those from Anki, where you have a question and an answer.</li>
+<li><strong>Cloze</strong>: In cloze cards, all text is shown during review except for
+specific parts that you specify. For cloze cells you can have one or more groups,
+where each group gets its own repetition.</li>
+<li><strong>True/False</strong>: This type presents a question that has a true or false answer.</li>
+<li><strong>Note</strong>: These cells help organize the file but do not appear during review.</li>
+</ul>
+<h2 id="focus-tools">Focus tools</h2>
+<p>In the editor, you can select one cell at a time, marked by the border color. 
+When you select a cell, a set of buttons called focus tools will appear. 
+These include:</p>
+<ul>
+<li><strong>Insert Cell Button</strong>: This allows you to insert a new cell after 
+the current one.</li>
+<li><strong>Reset All Repetitions Button</strong>: This resets all repetitions related 
+to the cell.</li>
+<li><strong>Repetitions Info</strong>: Clicking this shows information about the repetitions 
+of the cell.</li>
+<li><strong>Delete Cell Button</strong>: This shows a confirmation dialog, and upon 
+confirmation, the cell and all its repetitions will be deleted.</li>
+<li><strong>Drag Button</strong>: This allows you to drag and rearrange cells as desired.</li>
+</ul>
+<h2 id="text-editors">Text editors</h2>
+<p>Cells can contain text editors that provide an enriched text editing experience,
+including the ability to format text, insert images, and more. In any of these
+text editors, when you select a portion of the text, a bubble menu will appear, 
+allowing you to apply various formatting options. Cloze cells also have 
+additional buttons on this bubble menu:</p>
+<ol>
+<li>A button to add or remove the selected text into a cloze group.</li>
+<li>Two buttons to increase or decrease the cloze group number.</li>
+</ol>
+<h2 id="shortcuts">Shortcuts</h2>
+<table>
+<thead>
+<tr>
+<th>Keyboard shortcut</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ctrl + Enter</td>
+<td>Insert new cell at the end of the file</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + Enter</td>
+<td>Insert new cell after the current selected cell</td>
+</tr>
+<tr>
+<td>Ctrl + Arrow up/down</td>
+<td>Move the focus to the previous/next cell</td>
+</tr>
+<tr>
+<td>Ctrl + Alt + Arrow up/down</td>
+<td>Move the selected cell to the up/down</td>
+</tr>
+<tr>
+<td>Ctrl + F</td>
+<td>Search</td>
+</tr>
+<tr>
+<td>Ctrl + Space</td>
+<td>Move the focus to the text editor</td>
+</tr>
+<tr>
+<td>Alt + DEL</td>
+<td>Delete current cell</td>
+</tr>
+<tr>
+<td>F5</td>
+<td>Start studying/review session</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../home/" class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../search/" class="btn btn-neutral float-right" title="Search">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../home/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../search/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
