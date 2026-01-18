@@ -3,7 +3,12 @@
 The sidebar allows you to navigate between the various components of the
 system and consists of the following parts:
 
-- **Sidebar navigation and quick actions**: Use the sidebar to navigate quickly to Home, Search, and Settings, and to perform actions with dedicated buttons for Sync and Help.
+- **Sidebar navigation and quick actions**: Use the sidebar to navigate quickly
+to Home, Search, and Settings, and to perform actions with dedicated buttons
+for Sync and Help.
+
+- **FSRS Configuration**: Customize spaced repetition settings for individual
+files or folders to optimize your learning experience.
 
 - **File Management Area**: Manage your files and folders efficiently.
 
@@ -44,7 +49,13 @@ which files were expanded and which were collapsed during your last
 session and will retain the state even after restart. This helps maintain
 your workflow and allows you to pick up right where you left off next time
 you use the program.
-<!--TODO: sign in and out-->
+
+## FSRS Configuration
+You can customize your spaced repetition learning experience by configuring
+FSRS (Free Spaced Repetition Scheduler) parameters for individual folders
+or files. Click on the three dots next to any folder and select `FSRS Profile`
+to adjust algorithm parameters and optimize your retention rates based on your
+learning preferences.
 
 ## Shortcuts
 

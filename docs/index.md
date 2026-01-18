@@ -14,8 +14,9 @@ place.
 - **Structured Folders and Files:** Easily manage and access your study 
 materials with robust organization.
   
-- **Active Learning and Spaced Repetitions:** Retain knowledge effectively 
-with scientifically-backed methods.
+- **Active Learning and Spaced Repetitions:** Retain knowledge effectively
+with FSRS (Free Spaced Repetition Scheduler) algorithm, with configurable
+parameters.
   
 - **Interactive Tools:** Dive into flash cards and cloze exercises for dynamic 
 study sessions.
